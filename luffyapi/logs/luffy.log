@@ -1,0 +1,28 @@
+INFO 2024-03-01 17:25:19,424 autoreload 18144 2624 Watching for file changes with StatReloader
+INFO 2024-03-01 17:25:22,442 basehttp 18144 9172 "GET / HTTP/1.1" 200 10697
+INFO 2024-03-01 17:25:22,469 basehttp 18144 9172 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-03-01 17:25:22,603 basehttp 18144 9172 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-03-01 17:25:22,604 basehttp 18144 16752 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-03-01 17:25:22,614 basehttp 18144 17532 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-03-01 23:44:53,178 autoreload 18040 16620 Watching for file changes with StatReloader
+INFO 2024-03-01 23:44:55,414 basehttp 18040 8416 "GET / HTTP/1.1" 200 10633
+INFO 2024-03-01 23:44:55,500 basehttp 18040 8416 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-03-01 23:44:55,659 basehttp 18040 8416 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-03-01 23:44:55,669 basehttp 18040 860 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-03-01 23:44:55,677 basehttp 18040 10080 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-03-04 14:46:49,545 autoreload 7060 20060 Watching for file changes with StatReloader
+ERROR 2024-03-04 14:46:57,084 exception 7060 16764 Invalid HTTP_HOST header: 'api.luffycity.cn:8000'. You may need to add 'api.luffycity.cn' to ALLOWED_HOSTS.
+WARNING 2024-03-04 14:46:57,572 log 7060 16764 Bad Request: /
+WARNING 2024-03-04 14:46:57,573 basehttp 7060 16764 "GET / HTTP/1.1" 400 76982
+ERROR 2024-03-04 14:46:57,958 exception 7060 15008 Invalid HTTP_HOST header: 'api.luffycity.cn:8000'. You may need to add 'api.luffycity.cn' to ALLOWED_HOSTS.
+WARNING 2024-03-04 14:46:57,995 log 7060 15008 Bad Request: /favicon.ico
+WARNING 2024-03-04 14:46:57,996 basehttp 7060 15008 "GET /favicon.ico HTTP/1.1" 400 76905
+INFO 2024-03-04 14:49:03,596 autoreload 7060 20060 G:\DjangoProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2024-03-04 14:49:06,538 autoreload 16524 19948 Watching for file changes with StatReloader
+INFO 2024-03-04 14:49:44,287 basehttp 16524 6316 "GET / HTTP/1.1" 200 10633
+INFO 2024-03-04 14:49:44,350 basehttp 16524 6316 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-03-04 14:49:44,441 basehttp 16524 19816 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-03-04 14:49:44,441 basehttp 16524 6316 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-03-04 14:49:44,442 basehttp 16524 20040 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+WARNING 2024-03-04 14:49:44,529 log 16524 20040 Not Found: /favicon.ico
+WARNING 2024-03-04 14:49:44,530 basehttp 16524 20040 "GET /favicon.ico HTTP/1.1" 404 2119
