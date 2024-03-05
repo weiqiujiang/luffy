@@ -20,6 +20,11 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# 把apps目录下面所有的子应用设置为可以直接导包，那就需要把apps设置为默认导包路径
+
+import sys
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
+import home
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -32,6 +37,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'www.luffycity.cn',
     'api.luffycity.cn'
+    # '127.0.0.1'
+    # '*'
 ]
 
 # Application definition
@@ -44,7 +51,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'corsheaders'
+    'corsheaders',
+    'rest_framework',
+    # 'xadmin',
+    # 'crispy_forms',
+    # 'reversion',
+
+    'home',
+
 
 
 ]
@@ -65,7 +79,7 @@ ROOT_URLCONF = 'luffyapi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': []
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -129,7 +143,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+# 访问静态文件的url地址前缀
 STATIC_URL = '/static/'
+# 设置django的静态文件目录
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
+
+# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+# 访问上传文件的url地址前缀
+MEDIA_URL ="/media/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -139,7 +163,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (
     # 在部分的cors_headrs模块中，如果不带协议，会导致客户端无法跨域，就需要配置 "http://www.luffycity.cn:8080"
-    'www.luffycity.cn:8080',
+    'https://www.luffycity.cn:8080',
 )
 
 # 允许ajax跨域请求时携带cookie
