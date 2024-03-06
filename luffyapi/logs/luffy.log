@@ -273,3 +273,287 @@ INFO 2024-03-05 20:35:42,639 basehttp 17964 20540 "GET /static/rest_framework/js
 INFO 2024-03-05 20:35:42,642 basehttp 17964 19284 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
 INFO 2024-03-05 20:35:42,661 basehttp 17964 20524 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
 INFO 2024-03-05 20:35:51,452 basehttp 17964 20524 "GET /media/banner/new.png HTTP/1.1" 200 21015
+INFO 2024-03-05 21:22:07,011 autoreload 11912 17132 Watching for file changes with StatReloader
+WARNING 2024-03-05 21:27:48,043 log 11912 14880 Not Found: /
+WARNING 2024-03-05 21:27:48,043 basehttp 11912 14880 "GET / HTTP/1.1" 404 2208
+WARNING 2024-03-05 21:28:57,731 log 11912 14880 Not Found: //banner/
+WARNING 2024-03-05 21:28:57,732 basehttp 11912 14880 "GET //banner/ HTTP/1.1" 404 2250
+WARNING 2024-03-05 21:29:03,413 log 11912 14880 Not Found: //banner/
+WARNING 2024-03-05 21:29:03,413 basehttp 11912 14880 "GET //banner/ HTTP/1.1" 404 2250
+INFO 2024-03-05 21:29:45,750 basehttp 11912 14880 "GET /banner/ HTTP/1.1" 200 98
+INFO 2024-03-05 21:29:49,384 basehttp 11912 14880 "GET /banner/ HTTP/1.1" 200 98
+WARNING 2024-03-05 21:33:40,205 log 11912 17248 Not Found: /
+WARNING 2024-03-05 21:33:40,206 basehttp 11912 17248 "GET / HTTP/1.1" 404 2208
+INFO 2024-03-05 21:33:46,777 basehttp 11912 17248 "GET /banner/ HTTP/1.1" 200 5522
+INFO 2024-03-05 21:33:46,822 basehttp 11912 17248 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-03-05 21:33:46,837 basehttp 11912 17248 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2024-03-05 21:33:46,841 basehttp 11912 3472 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2024-03-05 21:33:46,853 basehttp 11912 17720 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2024-03-05 21:33:46,855 basehttp 11912 20768 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-03-05 21:33:46,860 basehttp 11912 10740 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2024-03-05 21:33:46,860 basehttp 11912 19008 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2024-03-05 21:33:46,872 basehttp 11912 3472 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-03-05 21:33:46,873 basehttp 11912 17248 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2024-03-05 21:33:46,874 basehttp 11912 17720 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-03-05 21:33:46,886 basehttp 11912 17248 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-03-05 21:37:36,248 autoreload 11912 17132 G:\DjangoProject\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2024-03-05 21:37:38,508 autoreload 17896 12652 Watching for file changes with StatReloader
+INFO 2024-03-05 21:37:59,964 basehttp 17896 20708 "GET /banner/ HTTP/1.1" 200 98
+INFO 2024-03-05 21:45:27,338 basehttp 17896 10460 "GET /admin/ HTTP/1.1" 200 4287
+INFO 2024-03-05 21:45:27,410 basehttp 17896 10460 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:27,414 basehttp 17896 11980 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:27,415 basehttp 17896 6004 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:27,468 basehttp 17896 6004 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:27,484 basehttp 17896 6004 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:27,485 basehttp 17896 11980 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:27,541 basehttp 17896 6004 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:27,541 basehttp 17896 11980 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:27,542 basehttp 17896 10460 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:28,930 basehttp 17896 10460 "GET /admin/home/banner/ HTTP/1.1" 200 4592
+INFO 2024-03-05 21:45:28,972 basehttp 17896 10460 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:28,983 basehttp 17896 11980 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:28,986 basehttp 17896 6004 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:28,990 basehttp 17896 10460 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:45:28,994 basehttp 17896 6004 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:28,995 basehttp 17896 11980 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:29,002 basehttp 17896 20652 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:29,003 basehttp 17896 1060 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:29,006 basehttp 17896 5604 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:29,008 basehttp 17896 11980 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:29,065 basehttp 17896 10460 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:32,049 basehttp 17896 10460 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 7285
+INFO 2024-03-05 21:45:32,089 basehttp 17896 10460 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:32,090 basehttp 17896 1060 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:32,091 basehttp 17896 5604 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:32,096 basehttp 17896 11980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:45:32,138 basehttp 17896 11980 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-03-05 21:45:40,333 basehttp 17896 11980 "POST /admin/home/banner/2/change/ HTTP/1.1" 302 0
+INFO 2024-03-05 21:45:40,386 basehttp 17896 11980 "GET /admin/home/banner/ HTTP/1.1" 200 4765
+INFO 2024-03-05 21:45:40,431 basehttp 17896 11980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:45:40,483 basehttp 17896 11980 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+WARNING 2024-03-05 21:45:45,764 log 17896 11980 Not Found: //banner/
+WARNING 2024-03-05 21:45:45,764 basehttp 17896 11980 "GET //banner/ HTTP/1.1" 404 2250
+INFO 2024-03-05 21:45:48,779 basehttp 17896 11980 "GET /banner/ HTTP/1.1" 200 5819
+INFO 2024-03-05 21:50:17,361 basehttp 17896 11980 "GET /media/banner/new.png HTTP/1.1" 200 21015
+INFO 2024-03-05 21:51:04,583 autoreload 18332 8228 Watching for file changes with StatReloader
+INFO 2024-03-05 21:51:11,823 basehttp 18332 8068 "GET /banner/ HTTP/1.1" 200 195
+INFO 2024-03-05 21:51:11,880 basehttp 18332 19100 "GET /media/banner/old.png HTTP/1.1" 200 30741
+INFO 2024-03-05 21:56:15,248 basehttp 18332 20980 "GET /banner/ HTTP/1.1" 200 195
+INFO 2024-03-05 21:56:53,143 basehttp 18332 20980 "GET /banner/ HTTP/1.1" 200 195
+INFO 2024-03-05 21:57:16,559 basehttp 18332 11140 "GET /admin/ HTTP/1.1" 200 4581
+INFO 2024-03-05 21:57:18,240 basehttp 18332 11140 "GET /admin/home/banner/ HTTP/1.1" 200 4592
+INFO 2024-03-05 21:57:18,393 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:57:21,039 basehttp 18332 11140 "GET /admin/home/banner/add/ HTTP/1.1" 200 6773
+INFO 2024-03-05 21:57:21,085 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:57:28,233 basehttp 18332 11140 "GET /admin/home/banner/ HTTP/1.1" 200 4592
+INFO 2024-03-05 21:57:28,279 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:57:38,659 basehttp 18332 11140 "GET /admin/home/banner/1/change/ HTTP/1.1" 200 7285
+INFO 2024-03-05 21:57:38,708 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:57:41,868 basehttp 18332 11140 "GET /admin/home/banner/1/delete/ HTTP/1.1" 200 3193
+INFO 2024-03-05 21:57:41,914 basehttp 18332 11140 "GET /static/admin/js/cancel.js HTTP/1.1" 200 409
+INFO 2024-03-05 21:57:47,119 basehttp 18332 11140 "POST /admin/home/banner/1/delete/ HTTP/1.1" 302 0
+INFO 2024-03-05 21:57:47,168 basehttp 18332 11140 "GET /admin/home/banner/ HTTP/1.1" 200 4514
+INFO 2024-03-05 21:57:47,235 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:57:48,879 basehttp 18332 11140 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 7285
+INFO 2024-03-05 21:57:48,927 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:57:50,479 basehttp 18332 11140 "GET /admin/home/banner/2/delete/ HTTP/1.1" 200 3193
+INFO 2024-03-05 21:57:51,899 basehttp 18332 11140 "POST /admin/home/banner/2/delete/ HTTP/1.1" 302 0
+INFO 2024-03-05 21:57:51,977 basehttp 18332 11140 "GET /admin/home/banner/ HTTP/1.1" 200 3334
+INFO 2024-03-05 21:57:52,083 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:57:54,275 basehttp 18332 11140 "GET /admin/home/banner/add/ HTTP/1.1" 200 6773
+INFO 2024-03-05 21:57:54,322 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:58:55,454 basehttp 18332 11140 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2024-03-05 21:58:55,527 basehttp 18332 11140 "GET /admin/home/banner/add/ HTTP/1.1" 200 7002
+INFO 2024-03-05 21:58:55,665 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 21:59:17,088 basehttp 18332 11140 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2024-03-05 21:59:17,139 basehttp 18332 11140 "GET /admin/home/banner/add/ HTTP/1.1" 200 7002
+INFO 2024-03-05 21:59:17,181 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:00:36,012 basehttp 18332 11140 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2024-03-05 22:00:36,111 basehttp 18332 11140 "GET /admin/home/banner/add/ HTTP/1.1" 200 7002
+INFO 2024-03-05 22:00:36,167 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:00:58,531 basehttp 18332 11140 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2024-03-05 22:00:58,588 basehttp 18332 11140 "GET /admin/home/banner/ HTTP/1.1" 200 5205
+INFO 2024-03-05 22:00:58,643 basehttp 18332 11140 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:01:06,068 basehttp 18332 11140 "GET /banner/ HTTP/1.1" 200 6446
+INFO 2024-03-05 22:01:06,107 basehttp 18332 11140 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,117 basehttp 18332 9860 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,121 basehttp 18332 11140 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,125 basehttp 18332 9860 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,130 basehttp 18332 11140 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,133 basehttp 18332 9860 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,137 basehttp 18332 8668 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,139 basehttp 18332 5604 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,141 basehttp 18332 9312 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,142 basehttp 18332 1228 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:06,171 basehttp 18332 1228 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-03-05 22:01:29,163 autoreload 5484 10460 Watching for file changes with StatReloader
+INFO 2024-03-05 22:01:36,203 basehttp 5484 13696 "GET /banner/ HTTP/1.1" 200 395
+INFO 2024-03-05 22:01:36,271 basehttp 5484 14708 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+INFO 2024-03-05 22:01:36,273 basehttp 5484 17980 "GET /media/banner/alex.jpeg HTTP/1.1" 200 93636
+INFO 2024-03-05 22:01:36,278 basehttp 5484 20812 "GET /media/banner/banner2_hJdo5Gh.png HTTP/1.1" 200 24322
+INFO 2024-03-05 22:01:36,366 basehttp 5484 14416 "GET /media/banner/banner1_JWBSA3N.png HTTP/1.1" 200 99518
+INFO 2024-03-05 22:02:36,683 basehttp 5484 13696 "GET /banner/ HTTP/1.1" 200 395
+INFO 2024-03-05 22:02:36,718 basehttp 5484 14708 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2024-03-05 22:02:36,719 basehttp 5484 20812 "GET /media/banner/banner1_JWBSA3N.png HTTP/1.1" 304 0
+INFO 2024-03-05 22:02:36,720 basehttp 5484 14416 "GET /media/banner/banner3.png HTTP/1.1" 304 0
+INFO 2024-03-05 22:02:36,720 basehttp 5484 17980 "GET /media/banner/banner2_hJdo5Gh.png HTTP/1.1" 304 0
+INFO 2024-03-05 22:04:52,056 basehttp 5484 17980 "GET /admin/ HTTP/1.1" 200 6247
+INFO 2024-03-05 22:04:52,154 basehttp 5484 17980 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-03-05 22:04:54,539 basehttp 5484 17980 "GET /admin/home/banner/ HTTP/1.1" 200 5032
+INFO 2024-03-05 22:04:54,589 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:04:56,895 basehttp 5484 17980 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 7301
+INFO 2024-03-05 22:04:57,071 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:05:03,733 basehttp 5484 17980 "POST /admin/home/banner/3/change/ HTTP/1.1" 302 0
+INFO 2024-03-05 22:05:03,792 basehttp 5484 17980 "GET /admin/home/banner/ HTTP/1.1" 200 5205
+INFO 2024-03-05 22:05:03,838 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:05:05,491 basehttp 5484 17980 "GET /admin/home/banner/4/change/ HTTP/1.1" 200 7301
+INFO 2024-03-05 22:05:05,559 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:05:10,203 basehttp 5484 17980 "POST /admin/home/banner/4/change/ HTTP/1.1" 302 0
+INFO 2024-03-05 22:05:10,261 basehttp 5484 17980 "GET /admin/home/banner/ HTTP/1.1" 200 5205
+INFO 2024-03-05 22:05:10,303 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:05:12,417 basehttp 5484 17980 "GET /admin/home/banner/5/change/ HTTP/1.1" 200 7281
+INFO 2024-03-05 22:05:12,458 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:05:15,339 basehttp 5484 17980 "POST /admin/home/banner/5/change/ HTTP/1.1" 302 0
+INFO 2024-03-05 22:05:15,399 basehttp 5484 17980 "GET /admin/home/banner/ HTTP/1.1" 200 5205
+INFO 2024-03-05 22:05:15,446 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:05:17,132 basehttp 5484 17980 "GET /admin/home/banner/6/change/ HTTP/1.1" 200 7293
+INFO 2024-03-05 22:05:17,207 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:05:20,757 basehttp 5484 17980 "POST /admin/home/banner/6/change/ HTTP/1.1" 302 0
+INFO 2024-03-05 22:05:20,813 basehttp 5484 17980 "GET /admin/home/banner/ HTTP/1.1" 200 5205
+INFO 2024-03-05 22:05:20,891 basehttp 5484 17980 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-05 22:05:33,775 autoreload 8080 12352 Watching for file changes with StatReloader
+INFO 2024-03-05 22:05:44,194 basehttp 8080 2976 "GET /banner/ HTTP/1.1" 200 423
+INFO 2024-03-05 22:05:44,293 basehttp 8080 10688 "GET /media/banner/banner3.png HTTP/1.1" 304 0
+INFO 2024-03-05 22:05:44,295 basehttp 8080 19556 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2024-03-05 22:05:44,298 basehttp 8080 14892 "GET /media/banner/banner2_hJdo5Gh.png HTTP/1.1" 304 0
+INFO 2024-03-05 22:05:44,319 basehttp 8080 9340 "GET /media/banner/banner1_JWBSA3N.png HTTP/1.1" 304 0
+INFO 2024-03-06 10:18:15,081 autoreload 11196 16612 Watching for file changes with StatReloader
+INFO 2024-03-06 10:19:49,547 autoreload 5996 9720 Watching for file changes with StatReloader
+WARNING 2024-03-06 10:19:52,217 log 5996 13384 Not Found: /
+WARNING 2024-03-06 10:19:52,218 basehttp 5996 13384 "GET / HTTP/1.1" 404 2524
+WARNING 2024-03-06 10:19:52,535 log 5996 13384 Not Found: /favicon.ico
+WARNING 2024-03-06 10:19:52,535 basehttp 5996 13384 "GET /favicon.ico HTTP/1.1" 404 2575
+INFO 2024-03-06 10:20:07,685 basehttp 5996 13384 "GET /nav/header/ HTTP/1.1" 200 5277
+INFO 2024-03-06 10:20:07,794 basehttp 5996 1500 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,794 basehttp 5996 16976 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,795 basehttp 5996 15252 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,796 basehttp 5996 13384 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,796 basehttp 5996 6524 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,796 basehttp 5996 13460 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,804 basehttp 5996 16976 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,806 basehttp 5996 1500 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,808 basehttp 5996 13460 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,809 basehttp 5996 15252 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:07,821 basehttp 5996 15252 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-03-06 10:20:20,524 basehttp 5996 15252 "GET /nav/footer/ HTTP/1.1" 200 5277
+INFO 2024-03-06 10:22:51,959 autoreload 5996 9720 G:\DjangoProject\luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2024-03-06 10:22:54,100 autoreload 1952 6368 Watching for file changes with StatReloader
+INFO 2024-03-06 10:23:02,137 basehttp 1952 1068 "GET /admin/ HTTP/1.1" 200 6969
+INFO 2024-03-06 10:23:02,174 basehttp 1952 1068 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:23:02,175 basehttp 1952 10588 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:23:02,177 basehttp 1952 8440 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:23:02,204 basehttp 1952 8440 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:23:02,215 basehttp 1952 8440 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-03-06 10:23:02,215 basehttp 1952 1068 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-03-06 10:23:02,221 basehttp 1952 10588 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-03-06 10:23:02,279 basehttp 1952 10588 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2024-03-06 10:23:02,280 basehttp 1952 8440 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2024-03-06 10:23:02,281 basehttp 1952 1068 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:26,596 autoreload 16040 12864 Watching for file changes with StatReloader
+INFO 2024-03-06 10:29:31,857 autoreload 16040 12864 G:\DjangoProject\luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2024-03-06 10:29:33,787 autoreload 15380 16548 Watching for file changes with StatReloader
+INFO 2024-03-06 10:29:34,398 basehttp 15380 13084 "GET /admin/ HTTP/1.1" 200 6969
+INFO 2024-03-06 10:29:36,730 basehttp 15380 13084 "GET /admin/ HTTP/1.1" 200 6969
+INFO 2024-03-06 10:29:37,760 basehttp 15380 13084 "GET /admin/ HTTP/1.1" 200 6969
+INFO 2024-03-06 10:29:38,583 basehttp 15380 13084 "GET /admin/ HTTP/1.1" 200 6969
+INFO 2024-03-06 10:29:40,493 basehttp 15380 13084 "GET /admin/home/nav/ HTTP/1.1" 200 3186
+INFO 2024-03-06 10:29:40,532 basehttp 15380 13084 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,541 basehttp 15380 13084 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,547 basehttp 15380 13084 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,551 basehttp 15380 4928 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,552 basehttp 15380 13084 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,556 basehttp 15380 17020 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,557 basehttp 15380 16920 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,559 basehttp 15380 8260 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,560 basehttp 15380 4928 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:40,569 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:29:40,613 basehttp 15380 2316 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-03-06 10:29:43,686 basehttp 15380 2316 "GET /admin/ HTTP/1.1" 200 6969
+INFO 2024-03-06 10:29:45,324 basehttp 15380 2316 "GET /admin/home/banner/ HTTP/1.1" 200 5032
+INFO 2024-03-06 10:29:45,364 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:29:54,305 basehttp 15380 2316 "GET /admin/ HTTP/1.1" 200 6969
+INFO 2024-03-06 10:31:19,025 basehttp 15380 2316 "GET /admin/home/nav/add/ HTTP/1.1" 200 6729
+INFO 2024-03-06 10:31:19,053 basehttp 15380 2316 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:31:19,073 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:31:19,073 basehttp 15380 4928 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:31:19,074 basehttp 15380 8260 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-03-06 10:31:19,110 basehttp 15380 2316 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-03-06 10:32:14,579 basehttp 15380 2316 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2024-03-06 10:32:14,655 basehttp 15380 2316 "GET /admin/home/nav/add/ HTTP/1.1" 200 6955
+INFO 2024-03-06 10:32:14,704 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:32:14,762 basehttp 15380 2316 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-03-06 10:33:15,449 basehttp 15380 2316 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2024-03-06 10:33:15,498 basehttp 15380 2316 "GET /admin/home/nav/add/ HTTP/1.1" 200 6952
+INFO 2024-03-06 10:33:15,537 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:34:16,578 basehttp 15380 2316 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2024-03-06 10:34:16,626 basehttp 15380 2316 "GET /admin/home/nav/add/ HTTP/1.1" 200 6955
+INFO 2024-03-06 10:34:16,662 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:35:07,551 basehttp 15380 2316 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2024-03-06 10:35:07,615 basehttp 15380 2316 "GET /admin/home/nav/4/change/ HTTP/1.1" 200 7181
+INFO 2024-03-06 10:35:07,657 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:35:12,177 basehttp 15380 2316 "POST /admin/home/nav/4/change/ HTTP/1.1" 302 0
+INFO 2024-03-06 10:35:12,227 basehttp 15380 2316 "GET /admin/home/nav/add/ HTTP/1.1" 200 6958
+INFO 2024-03-06 10:35:12,264 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:36:31,394 basehttp 15380 2316 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2024-03-06 10:36:31,448 basehttp 15380 2316 "GET /admin/home/nav/add/ HTTP/1.1" 200 6958
+INFO 2024-03-06 10:36:31,494 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:37:18,245 basehttp 15380 2316 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2024-03-06 10:37:18,302 basehttp 15380 2316 "GET /admin/home/nav/ HTTP/1.1" 200 5621
+INFO 2024-03-06 10:37:18,345 basehttp 15380 2316 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:41:33,155 autoreload 8180 3432 Watching for file changes with StatReloader
+INFO 2024-03-06 10:41:39,806 basehttp 8180 15136 "GET /admin/home/ HTTP/1.1" 200 2834
+INFO 2024-03-06 10:41:40,180 basehttp 8180 15136 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:41:41,679 basehttp 8180 15136 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:41:42,845 basehttp 8180 15136 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:41:43,123 basehttp 8180 15136 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:41:43,378 basehttp 8180 15136 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:41:43,628 basehttp 8180 15136 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:41:43,846 basehttp 8180 15136 "GET /admin/ HTTP/1.1" 200 7025
+WARNING 2024-03-06 10:41:48,927 log 8180 15136 Not Found: /
+WARNING 2024-03-06 10:41:48,928 basehttp 8180 15136 "GET / HTTP/1.1" 404 2524
+INFO 2024-03-06 10:41:53,158 basehttp 8180 15136 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:41:55,659 basehttp 8180 15136 "GET /admin/home/nav/ HTTP/1.1" 200 5448
+INFO 2024-03-06 10:41:55,700 basehttp 8180 15136 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:41:57,976 basehttp 8180 15136 "GET /admin/home/nav/ HTTP/1.1" 200 5448
+INFO 2024-03-06 10:41:58,005 basehttp 8180 15136 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:41:58,680 basehttp 8180 15136 "GET /admin/home/nav/ HTTP/1.1" 200 5448
+INFO 2024-03-06 10:41:58,711 basehttp 8180 15136 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:41:59,355 basehttp 8180 15136 "GET /admin/home/nav/ HTTP/1.1" 200 5448
+INFO 2024-03-06 10:41:59,388 basehttp 8180 15136 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:41:59,964 basehttp 8180 15136 "GET /admin/home/nav/ HTTP/1.1" 200 5448
+INFO 2024-03-06 10:41:59,996 basehttp 8180 15136 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:42:00,601 basehttp 8180 15136 "GET /admin/home/nav/ HTTP/1.1" 200 5448
+INFO 2024-03-06 10:42:00,634 basehttp 8180 15136 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:44:51,879 autoreload 8180 3432 G:\DjangoProject\luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2024-03-06 10:44:54,057 autoreload 16300 10300 Watching for file changes with StatReloader
+INFO 2024-03-06 10:47:00,540 autoreload 16300 10300 G:\DjangoProject\luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2024-03-06 10:47:02,613 autoreload 5156 5512 Watching for file changes with StatReloader
+INFO 2024-03-06 10:47:12,598 autoreload 7256 16704 Watching for file changes with StatReloader
+INFO 2024-03-06 10:54:06,128 autoreload 16628 996 Watching for file changes with StatReloader
+WARNING 2024-03-06 10:54:08,917 log 16628 1620 Not Found: /
+WARNING 2024-03-06 10:54:08,918 basehttp 16628 1620 "GET / HTTP/1.1" 404 2524
+INFO 2024-03-06 10:54:14,464 basehttp 16628 1620 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:54:17,559 basehttp 16628 1620 "GET /admin/home/nav/ HTTP/1.1" 200 7608
+INFO 2024-03-06 10:54:17,602 basehttp 16628 1620 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2024-03-06 10:54:17,609 basehttp 16628 3700 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:55:40,973 basehttp 16628 3700 "GET /nav/header/ HTTP/1.1" 200 6129
+INFO 2024-03-06 10:55:49,119 basehttp 16628 3700 "GET /nav/footer/ HTTP/1.1" 200 5424
+INFO 2024-03-06 10:56:50,558 basehttp 16628 3700 "GET /nav/header/ HTTP/1.1" 200 6129
+INFO 2024-03-06 10:57:00,022 basehttp 16628 3700 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2024-03-06 10:57:01,444 basehttp 16628 3700 "GET /admin/home/nav/ HTTP/1.1" 200 7608
+INFO 2024-03-06 10:57:01,479 basehttp 16628 3700 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:57:03,843 basehttp 16628 3700 "GET /admin/home/nav/5/change/ HTTP/1.1" 200 6990
+INFO 2024-03-06 10:57:03,885 basehttp 16628 3700 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-03-06 10:57:07,491 basehttp 16628 3700 "POST /admin/home/nav/5/change/ HTTP/1.1" 302 0
+INFO 2024-03-06 10:57:07,553 basehttp 16628 3700 "GET /admin/home/nav/ HTTP/1.1" 200 7781
+INFO 2024-03-06 10:57:07,594 basehttp 16628 3700 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
