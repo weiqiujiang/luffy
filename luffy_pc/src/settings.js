@@ -1,3 +1,3 @@
 export default {
-  'Host': 'http://localhost:8080'
+  'Host': 'http://api.luffycity.cn:8000'
 }
