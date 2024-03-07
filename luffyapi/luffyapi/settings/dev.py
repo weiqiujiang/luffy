@@ -163,7 +163,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (
     # 在部分的cors_headrs模块中，如果不带协议，会导致客户端无法跨域，就需要配置 "http://www.luffycity.cn:8080"
-    'https://www.luffycity.cn:8080',
+    'http://www.luffycity.cn:8080',
 )
 
 # 允许ajax跨域请求时携带cookie
