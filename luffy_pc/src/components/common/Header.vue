@@ -3,7 +3,7 @@
       <div class="header">
         <div class="content">
           <div class="logo full-left">
-            <router-link to="/"><img @click="jump('/')" src="/static/image/logo.svg" alt=""></router-link>
+            <router-link to="/"><img src="/static/image/logo.svg" alt=""></router-link>
           </div>
           <ul class="nav full-left">
               <li v-for="nav in nav_list">
@@ -11,17 +11,39 @@
                 <span v-else><router-link :to="nav.link">{{nav.title}}</router-link></span>
               </li>
           </ul>
-          <div class="login-bar full-right">
-            <div class="shop-cart full-left">
+
+          <div v-if="token" class="login-bar full-right">
+            <div class="shop-cart full-left flex-item">
+              <span class="shop-cart-total">0</span>
               <img src="/static/image/cart.svg" alt="">
               <span><router-link to="/cart">购物车</router-link></span>
             </div>
-            <div class="login-box full-left">
-              <span>登录</span>
+<!--            <div class="login-box full-left">-->
+              <router-link to="">学习中心</router-link>
+            <el-avatar style="margin: 0 10px" src="/static/image/member.png"></el-avatar>
+              <el-menu width="200" class="member el-menu-demo" mode="horizontal">
+                  <el-submenu index="2">
+                    <el-menu-item index="2-1">我的账户</el-menu-item>
+                    <el-menu-item index="2-2">我的订单</el-menu-item>
+                    <el-menu-item index="2-3">我的优惠卷</el-menu-item>
+                    <el-menu-item index="2-3"><span @click="logoutHander">退出登录</span></el-menu-item>
+                  </el-submenu>
+                </el-menu>
+<!--            </div>-->
+          </div>
+
+          <div v-else class="login-bar full-right">
+            <div class="shop-cart full-left flex-item">
+              <img src="/static/image/cart.svg" alt="">
+              <span><router-link to="/cart">购物车</router-link></span>
+            </div>
+            <div class="login-box full-left flex-item">
+              <router-link to="/user/login">登录</router-link>
               &nbsp;|&nbsp;
               <span>注册</span>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -32,21 +54,37 @@
       name: "Header",
       data(){
         return{
-          nav_list:[]
+            token:"",
+            nav_list: [],
         }
       },
       created() {
-        this.get_nav_list();
+          this.check_user_login();
+          this.get_nav();
       },
       methods:{
-        get_nav_list() {
-          this.$axios.get(`${this.$settings.Host}/nav/header/`, {}).then(response=>{
-            this.nav_list = response.data;
-          }).catch(error=>{
-            console.log(error.response)
-          })
-        }
-
+          check_user_login(){
+            // 获取用户的登录状态
+            this.token = sessionStorage.user_token || localStorage.user_token;
+            return this.token;
+          },
+          get_nav(){
+              this.$axios.get(`${this.$settings.Host}/nav/header/`,{}).then(response=>{
+                  this.nav_list = response.data;
+              }).catch(error=>{
+                  console.log(error.response);
+              })
+          },
+          logoutHander(){
+              // 退出登录
+              localStorage.removeItem("user_token");
+              localStorage.removeItem("user_id");
+              localStorage.removeItem("user_name");
+              sessionStorage.removeItem("user_token");
+              sessionStorage.removeItem("user_id");
+              sessionStorage.removeItem("user_name");
+              this.check_user_login();
+          }
       }
     }
 </script>
@@ -107,16 +145,24 @@
 }
 .header .login-bar{
   height: 80px;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center;     /* 垂直居中 */
 }
-.header .login-bar .shop-cart{
+.flex-item{
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center;     /* 垂直居中 */
+}
+.header .login-bar .shop-cart .flex-item{
   margin-right: 20px;
   border-radius: 17px;
   background: #f7f7f7;
   cursor: pointer;
   font-size: 14px;
   height: 28px;
-  width: 88px;
-  margin-top: 30px;
+  width: 100px;
+  margin-top: 27px;
   line-height: 32px;
   text-align: center;
 }
@@ -131,15 +177,40 @@
 .header .login-bar .shop-cart span{
   margin-right: 6px;
 }
-.header .login-bar .login-box{
-  margin-top: 33px;
-}
-.header .login-bar .login-box span{
+
+.header .login-bar .login-box .flex-item span{
   color: #4a4a4a;
   cursor: pointer;
 }
 .header .login-bar .login-box span:hover{
   color: #000000;
 }
-</style>
+.member{
+    /*display: inline-block;*/
+    /*height: 34px;*/
+    /*margin-left: 20px;*/
+}
+.member img{
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.member img:hover{
+  border: 1px solid yellow;
+}
+/*.header .login-bar .login-box{*/
+/*  margin-top: 27px;*/
+/*}*/
 
+/*.header .login-bar .login-box1{*/
+/*  margin-top: 16px;*/
+/*}*/
+ .el-menu-demo {
+  border-bottom:none !important;
+}
+  .el-menu-demo >>> .el-submenu__title{
+   padding: 0;
+   padding-right: 10px;
+ }
+</style>
