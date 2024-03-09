@@ -16,7 +16,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-
+import datetime
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -53,11 +53,9 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'rest_framework',
-    # 'xadmin',
-    # 'crispy_forms',
-    # 'reversion',
 
     'home',
+    'user',
 
 
 
@@ -218,9 +216,20 @@ REST_FRAMEWORK = {
     # 自定义异常处理
     'EXCEPTION_HANDLER': 'luffycityapi.utils.exceptions.custom_exception_handler',
     # 自定义认证
-    # 'DEFAULT_AUTHENTICATION_CLASSES': (
-    #     'rest_framework_jwt.authentication.JSONWebTokenAuthentication',  # jwt认证
-    #     'rest_framework.authentication.SessionAuthentication',  # session认证
-    #     'rest_framework.authentication.BasicAuthentication',
-    # ),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',  # jwt认证
+        'rest_framework.authentication.SessionAuthentication',  # session认证
+        'rest_framework.authentication.BasicAuthentication',
+    ),
 }
+# jwt有效期
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'user.utils.jwt_response_payload_handler',
+}
+# 实现多条件登录
+AUTHENTICATION_BACKENDS = [
+    'user.utils.UsernameMobileAuthBackend',
+]
+# 注册自定义用户模型 app_name.Model_name
+AUTH_USER_MODEL = 'user.User'

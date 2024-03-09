@@ -24,7 +24,7 @@ table{
 }
 
 [class*=" el-icon-"], [class^=el-icon-]{
-  font-size: 50px;
+  font-size: 30px;
 }
 .el-carousel__arrow{
   width: 120px;

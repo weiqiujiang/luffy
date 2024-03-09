@@ -13,8 +13,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 /* 导入css初始化配置 */
 import '../static/css/reset.css';
-
-import axios from 'axios'
+/* 导入极验sdk */
+import '../static/js/gt';
+import axios from 'axios';
 axios.defaults.withCredentials = false;// 组织ajax携带cookie
 Vue.prototype.$axios = axios; //把对象挂载到vue中
 /* eslint-disable no-new */
