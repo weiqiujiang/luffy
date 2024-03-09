@@ -5,8 +5,8 @@ from rest_framework import status as http_status
 from rest_framework.views import APIView
 # Create your views here.
 
-pc_geetest_id = "e723d55bd9e9575db80d81f4b526bd81"
-pc_geetest_key = "e21e85b47ee3c563a71a5c5288122bbf"
+pc_geetest_id = ""
+pc_geetest_key = ""
 
 
 class CaptchaAPIView(APIView):
